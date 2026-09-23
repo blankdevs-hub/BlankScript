@@ -1,1 +1,13 @@
+--[[
+ ____  _        _    _   _ _  __
+| __ )| |      / \  | \ | | |/ /
+|  _ \| |     / _ \ |  \| | ' / 
+| |_) | |___ / ___ \| |\  | . \ 
+|____/|_____/_/   \_\_| \_|_|\_\
+    
+    脚本群1126600419
+]]
 
+getgenv().supported= {
+    [3623096087] = "https://raw.githubusercontent.com/blankdevs-hub/BlankScript/refs/heads/main/Script/Muscle%20Legends", -- Muscle Legends
+}
