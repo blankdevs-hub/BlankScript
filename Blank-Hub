@@ -9,5 +9,5 @@
 ]]
 
 getgenv().supported= {
-    [1268927906] = "https://raw.githubusercontent.com/blankdevs-hub/BlankScript/refs/heads/main/Script/Muscle%20Legends", -- Muscle Legends
+    [3623096087] = "https://raw.githubusercontent.com/blankdevs-hub/BlankScript/refs/heads/main/Script/Muscle%20Legends", -- Muscle Legends
 }
