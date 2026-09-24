@@ -8,6 +8,11 @@
     脚本群1126600419
 ]]
 
-getgenv().supported= {
-    [3623096087] = "https://raw.githubusercontent.com/blankdevs-hub/BlankScript/refs/heads/main/Script/Muscle%20Legends", -- Muscle Legends
+getgenv().supported = {
+    [3623096087] = "https://raw.githubusercontent.com/blankdevs-hub/BlankScript/refs/heads/main/Script/Muscle%20Legends",--Muscle Legends
 }
+
+local placeId = game.PlaceId
+local scriptUrl = getgenv().supported[placeId]
+
+if scriptUrl then pcall(function() loadstring(game:HttpGet(scriptUrl))() end);end
