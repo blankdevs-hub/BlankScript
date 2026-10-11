@@ -15,4 +15,13 @@ getgenv().supported = {
 local placeId = game.PlaceId
 local scriptUrl = getgenv().supported[placeId]
 
-if scriptUrl then pcall(function() loadstring(game:HttpGet(scriptUrl))() end);end
+if not scriptUrl then
+    pcall(function()
+        game:GetService("Players").LocalPlayer:Kick("脚本不支持当前游戏 Q群1126600419")
+    end)
+    return
+end
+
+pcall(function()
+    loadstring(game:HttpGet(scriptUrl))()
+end)
